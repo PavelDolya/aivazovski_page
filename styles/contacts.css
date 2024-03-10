@@ -1,0 +1,95 @@
+.contacts {
+    padding: 55px 20px 60px;
+    text-align: center;
+}
+
+.contacts-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--color-main-black);
+}
+
+/* .contact-button {
+    width: 210px;
+    height: 42px;
+    background-color: var(--color-main-black);
+
+    border: none;
+    border-radius: 21px;
+    margin: 75px 0 30px;
+} */
+
+/* .contact-button:hover {
+    opacity: 0.8;
+} */
+
+.button-link {
+    padding-top: 4px;
+    display: block;
+    width: 210px;
+    height: 42px;
+    background-color: var(--color-main-black);
+    border: none;
+    border-radius: 21px;
+    margin: 75px auto 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--bg-main);
+}
+
+.button-link:hover {
+    opacity: 0.8;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+
+.social-icon {
+    width: 65px;
+    height: 65px;
+    fill: var(--color-main-black);
+
+}
+
+.youtube:hover {
+    fill: red;
+}
+.link:hover {
+    fill: lightskyblue;
+}
+.instagram:hover {
+    fill: lightcoral;
+}
+.facebook:hover {
+    fill: rgb(14, 14, 164);
+}
+
+.contacts-info {
+    width: 260px;
+    margin: 35px auto 0;
+    color: var(--font-color-grey);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 480px) {
+    .social {
+        gap: 20px;
+    }
+
+    .social-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .contacts-info {
+        font-size: 14px;
+    }
+}
